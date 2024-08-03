@@ -28,3 +28,35 @@ main {
 .card_content {
   padding: 40px 32px;
 }
+
+h1,
+h2 {
+  font-family: var(--young_f);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: var(--stone_dark);
+}
+h2 {
+  font-size: 1.75rem;
+  color: var(--brown);
+}
+h3 {
+  color: var(--rose);
+  font-size: 1.25rem;
+  font-family: var(--embed_f);
+  font-weight: 600;
+}
+
+p,
+li {
+  font-family: var(--embed_f);
+  font-size: 1rem;
+  color: var(--stone_medium);
+}
+
+.content_preparation-time strong {
+  font-weight: 700;
+}
