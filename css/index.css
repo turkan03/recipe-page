@@ -27,6 +27,18 @@ main {
 
 .card_content {
   padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content_ingredients,
+.content_content_instruction,
+.content_nutrition,
+.card_header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 h1,
