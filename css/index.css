@@ -60,3 +60,7 @@ li {
 .content_preparation-time strong {
   font-weight: 700;
 }
+
+hr {
+  border: 1px solid var(--stone_grey);
+}
