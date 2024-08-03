@@ -8,3 +8,23 @@
   --brown: hsl(14, 45%, 36%);
   --white: hsl(0, 0%, 100%);
 }
+
+/* LAYOUT */
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 736px;
+}
+
+.card_content {
+  padding: 40px 32px;
+}
