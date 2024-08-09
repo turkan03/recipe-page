@@ -33,7 +33,7 @@ main {
 }
 
 .content_ingredients,
-.content_content_instruction,
+.content_instruction,
 .content_nutrition,
 .card_header {
   display: flex;
@@ -79,7 +79,7 @@ hr {
 
 .content_preparation-time {
   background-color: var(--rose-pastel);
-  max-width: 19, 4375rem;
+  max-width: 19.4375rem;
   padding: 1.5rem;
   border-radius: 12px;
   display: flex;
@@ -102,4 +102,25 @@ li::marker {
   color: var(--rose);
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+table td {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--stone_medium);
+  font-family: var(--embed_f);
+  border-bottom: solid 1px var(--stone_grey);
+  padding: 0.75rem 2rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+}
+
+td:last-child {
+  color: var(--rose);
+  font-weight: 700;
 }
