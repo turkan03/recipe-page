@@ -19,7 +19,7 @@ It was a webpage primarily focused on CSS and HTML, designed to help you practic
 
 ### Screenshot
 
-![./screenshot.png]
+![](./screenshot.png)
 
 ### Links
 
