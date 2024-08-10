@@ -13,6 +13,7 @@
 
 body {
   min-height: 100vh;
+  background-color: var(--stone_cream);
 }
 
 main {
@@ -22,11 +23,12 @@ main {
 }
 
 .card {
-  max-width: 736px;
+  max-width: 46rem;
+  background-color: var(--white);
 }
 
 .card_content {
-  padding: 40px 32px;
+  padding: 40px 32px 40px 32px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -79,7 +81,7 @@ hr {
 
 .content_preparation-time {
   background-color: var(--rose-pastel);
-  max-width: 19.4375rem;
+  max-width: 41rem;
   padding: 1.5rem;
   border-radius: 12px;
   display: flex;
@@ -121,3 +123,31 @@ td:last-child {
   color: var(--rose);
   font-weight: 700;
 }
+
+/* DESKTOP */
+
+@media only screen and (min-width: 31em) {
+  img,
+  .card {
+    border-radius: 12px;
+  }
+
+  .card_img {
+    padding-bottom: 2.5rem;
+  }
+
+  .wrap {
+    padding: 0 32px;
+  }
+
+  .card {
+    padding: 2.5rem;
+  }
+
+  .card_content {
+    flex-grow: 1;
+    padding: 0;
+  }
+}
+
+/* padding: 8rem 2.5rem; */
